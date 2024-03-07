@@ -1,0 +1,58 @@
+#accountNav {
+    display: flex;
+    justify-items: flex-start;
+}
+#accountNav img{
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+
+#accountNav button{
+    
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+#accountHead {
+    display: flex;
+    justify-content: center;
+}
+
+#accountHead h3 {
+    align-self: center;
+}
+
+#accountHead button {
+    align-self: flex-end;
+}
+
+#bio {
+    display: flex;
+    flex-direction: column;
+}
+
+#reels {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#reels img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#accountStats {
+    display: flex;
+}
+
+#accountTabs {
+    display: flex;
+
+}
+
+#posts {
+    display: flex;
+    flex-direction: row;
+}
