@@ -1,0 +1,82 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+
+  header {
+    background-color: grey;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .top-nav ul {
+    text-align: center;
+  }
+  
+  .top-nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .top-nav ul li a {
+    color: white;
+  }
+  
+
+  .main {
+    padding: 20px;
+  }
+  
+  .feed-item {
+    border: 1px solid white;
+    padding: 10px;
+  }
+  
+  .feed-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+  footer {
+    background-color: grey;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .bottom-nav ul {
+    text-align: center;
+  }
+  
+  .bottom-nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .bottom-nav ul li a {
+    color: white;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container img {
+    max-width: 80%;
+    max-height: 80%;
+  }
+
