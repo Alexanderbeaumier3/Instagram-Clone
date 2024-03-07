@@ -4,11 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Multigram</title>
   </head>
   <body>
-    <h1>Landing Page</h1>
+    <container class="login">
+      <img height="100" src="iglogo.png">
+      <container class="inputs-form">
+        <input id="username" placeholder="Phone number, username or email">
+
+        <input id="password" placeholder="Password">
+        
+        <button id="login-button" type="submit">Log In</button>
+      </container>
+      <p class="error-message"></p>
+    </container>
 
     <script src="script.js"></script>
   </body>
