@@ -1,0 +1,34 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    margin: 2em;
+}
+
+#username, #password, #login-button {
+    margin: 5px;
+    border: 1.5px solid black;
+    border-radius: 20px;
+}
+
+#login-button {
+    background-color: rgb(64, 112, 245);
+    border: 3px solid black;
+}
+
+#login-button:hover {
+    background-color: blue;
+}
+.inputs-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+
+}
+
+.error-message {
+    color: red;
+    font-weight: bolder;
+}
